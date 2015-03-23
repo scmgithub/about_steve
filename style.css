@@ -1,0 +1,50 @@
+header {
+	text-align: center;
+	background: url("http://c1.staticflickr.com/9/8573/16559806365_beff37bb85_c.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-shadow: 4px 4px 2px #000000;
+}
+a {
+	color: white;
+}
+h1 {
+	font-size: 60px;
+}
+img {
+	margin: 40px 0px 0px 0px;
+	border: 3px solid Cornflowerblue;
+	border-radius: 20px;
+}
+p {
+	color: black;
+}
+ul {
+	padding: 10px;
+	background: rgba(192,192,192,0.5);
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+body {
+	background: rgba(200,200,200,1);
+}
+article {
+	max-width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+}
+@media (max-width: 500px) {
+	h1 {
+		font-size: 36px;
+		padding: 5px;
+	}
+	li {
+		padding: 5px;
+		display: block;
+	}
+}

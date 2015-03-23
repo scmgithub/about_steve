@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+	<link href="style.css" rel="stylesheet">
+	<title>Steve McIntosh</title>
+</head>
+<body>
+	<header>
+		<img width="200" height="257" src="http://c4.staticflickr.com/8/7342/15937262834_afa54405b4_z.jpg" class="ridge">
+		<h1>Steve McIntosh</h1>
+		<p style="color:white">Hi! Im Steve, a NYC-based technologist and web development student.</p>
+		<ul>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#vacation">Someday Maybe Travel</a></li>
+		</ul>
+	</header>
+	<article>
+		<a name="about"></a>
+		<h2>About Me</h2>
+		<p>I am a NYC-based technology professional interested in the Internet and World Wide Web.</p>
+		<p>I have experience in enterprise-level software testing and support, configuration management, and distributed deployment systems.</p>
+		<p>I am looking forward to broadening and deepening my knowledge of full-stack web development.</p>
+		<p>I also enjoy volleyball and jogging.</p>
+		<p>I am originally from a place called <a href="https://goo.gl/maps/4qKO0" style="color: blue">Old Tappan, NJ</a>,</p>
+		<p>but these days I live in <a href="https://goo.gl/maps/KT7R6" style="color: blue">Brooklyn, NY</a>.</p>
+		<p>I'm a <a href="http://en.wikipedia.org/wiki/Gemini_(astrology)" style="color: blue">Gemini</a>.</p>
+		<p><a href="http://www.wunderground.com/" style="color: blue">Here's a site I like.</a></p>
+	</article>
+	<article>
+		<a name="vacation"></a>
+		<h2>Here's somewhere I'd love to go...</h2>
+		<img src="https://www.chartwellinc.com/wp-content/uploads/santorini_greece.jpg">
+		<p>Santorini, Greece</p>
+	</article>
+	<article>
+		<button>Like this page</button>
+	</article>
+	<script>
+		$("button").on("click", function() {
+			alert("Thanks for Liking this page!")
+		});
+	</script>
+</body>
